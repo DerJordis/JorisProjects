@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      property="description"
+      content="Leckeres und preiswerte Sushi, Reis- und Nudelgerichte, Suppen und Vieles mehr bei Viet Thai Sushi Bar"
+    />
+    <meta
+      name="description"
+      content="Leckeres und preiswerte Sushi, Reis- und Nudelgerichte, Suppen und Vieles mehr bei Viet Thai Sushi Bar"
+    />
+    <meta name="robots" content="index, follow" />
+
+    <link rel="stylesheet" href="../css/test.css" />
+    <script src="../JS/test.js"></script>
+
+    <script
+      src="https://kit.fontawesome.com/b7c9adaba3.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Viet Thai Sushi Bar</title>
+  </head>
+  <body>
+    <header>
+      <img
+        class="Nav-Logo"
+        src="../Images/Logo.png"
+        alt="Viet Thai Sushi Logo"
+      />
+      <nav>
+        <ul class="Nav-Links">
+          <li><a href="#">Bestellen</a></li>
+          <li><a href="#">Speisekarte</a></li>
+          <li>
+            <a href="#" onclick="scrollToSection('.Location-Section', 500)"
+              >Standort</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="Shopping-Cart-Container">
+        <i class="fa-solid fa-cart-shopping Shopping-Cart"></i>
+        <div>0,00€</div>
+      </div>
+    </header>
+
+    <section class="Frontpage">
+      <div>
+        <img
+          id="Test12"
+          class="Sushi1 animate__animated animate__bounce"
+          src="../Images/futomaki.png"
+        />
+      </div>
+
+      <div class="HeadlineContainer">
+        <h1>Viet Thai Sushi Bar</h1>
+      </div>
+
+      <!-- <div class="SubtitleContainer">
+        <h2>Sushi, das man sich leisten kann</h2>
+      </div> -->
+      <a href="www.google.com" class="FrontpageButtonLink">
+        <button class="FrontpageButton">
+          <span class="button-decor"></span>
+          <div class="button-content">
+            <div class="button__icon">
+              <i class="fa-solid fa-utensils"></i>
+            </div>
+            <span class="button__text">Speisekarte</span>
+          </div>
+        </button>
+      </a>
+    </section>
+
+    <div class="custom-shape-divider-top-1709234089">
+      <svg
+        data-name="Layer 1"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1200 120"
+        preserveAspectRatio="none"
+      >
+        <path
+          d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+          class="shape-fill"
+        ></path>
+      </svg>
+    </div>
+    <section class="FeatureWrapper">
+      <section class="Features">
+        <div class="FeatureSushiContainer FeatureContainer">
+          <div class="FeatureSushi Feature1 Feature">
+            <div class="SushiIcon FeatureIcon"></div>
+          </div>
+          <div class="FeatureTextContainer">
+            <h1>Sushi</h1>
+          </div>
+        </div>
+
+        <div class="FeatureDrinksContainer FeatureContainer">
+          <div class="FeatureDrinks Feature2 Feature">
+            <div class="DrinksIcon FeatureIcon"></div>
+          </div>
+          <div class="FeatureTextContainer">
+            <h1>Getränke</h1>
+          </div>
+        </div>
+
+        <div class="FeatureVegContainer FeatureContainer">
+          <div class="FeatureVeg Feature3 Feature">
+            <div class="VegIcon FeatureIcon"></div>
+          </div>
+          <div class="FeatureTextContainer">
+            <h1>Vegetarisch</h1>
+          </div>
+        </div>
+
+        <div class="FeatureReisContainer FeatureContainer">
+          <div class="FeatureReis Feature4 Feature">
+            <div class="ReisIcon FeatureIcon"></div>
+          </div>
+          <div class="FeatureTextContainer">
+            <h1>Reis</h1>
+          </div>
+        </div>
+      </section>
+      <div class="CTA-Headline">
+        <h1>Und noch vieles mehr!</h1>
+      </div>
+      <div class="CTA-Buttons">
+        <a href="#" class="SpeisekarteButton">Speisekarte</a>
+        <a href="#" class="AllInOneButton">Alles auf einen Blick</a>
+      </div>
+      <div class="custom-shape-divider-bottom-1709235168">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+    </section>
+
+    <div
+      class="Location-Section-Headline-Container Location-Section-Headline-Animation1"
+    >
+      <h1 class="Location-Section-Headline">Standort</h1>
+    </div>
+
+    <section class="Location-Section">
+      <iframe
+        id="MapWidget"
+        class="MapWidget2"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1013.1108111235743!2d13.2010587780193!3d52.63710121820377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a8fff1f8f126e5%3A0x6a002704af584c57!2sViet%20Thai%20-%20Sushi%20Bar!5e1!3m2!1sde!2sde!4v1708447803531!5m2!1sde!2sde"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      >
+      </iframe>
+
+      <div
+        class="OpeningTimes OpeningTimesAnimation1"
+        id="OpeningTimesContainer"
+      >
+        <div class="OpeningTimes2">
+          <h1 class="OpeningTimeHeadline">Öffnungszeiten</h1>
+          <table>
+            <tr id="montag">
+              <td class="Wochentag tag">Mo</td>
+              <td class="Time">geschlossen</td>
+            </tr>
+            <tr id="dienstag">
+              <td class="Wochentag tag">Di</td>
+              <td class="Time">11:00 - 21:00</td>
+            </tr>
+            <tr id="mittwoch">
+              <td class="Wochentag tag">Mi</td>
+              <td class="Time">11:00 - 21:00</td>
+            </tr>
+            <tr id="donnerstag">
+              <td class="Wochentag tag">Do</td>
+              <td class="Time">11:00 - 21:00</td>
+            </tr>
+            <tr id="freitag">
+              <td class="Wochentag tag">Fr</td>
+              <td class="Time">11:00 - 21:00</td>
+            </tr>
+            <tr id="samstag">
+              <td class="Wochentag tag">Sa</td>
+              <td class="Time">12:00 - 20:00</td>
+            </tr>
+            <tr id="sonntag">
+              <td class="Wochentag tag">So</td>
+              <td class="Time">12:00 - 21:00</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="Bewertungen">
+      <div class="BewertungenHeadline">
+        <p class="BewertungSubline">
+          Noch nicht überzeugt? <br />
+          Schauen Sie sich an, was unsere Kunden sagen
+        </p>
+      </div>
+      <div class="BewertungCarousel BewertungCarousel1">
+        <a
+          href="https://g.co/kgs/hnrx1Ti"
+          class="BewertungLink BewertungLink1"
+          target="_blank"
+        >
+          <div class="Bewertung Bewertung1 ActiveReview">
+            <div class="BewertungContent BewertungContent1">
+              <div class="BewertungHeader BewertungHeader1">
+                <div class="BewertungNameContainer BewertungNameContainer1">
+                  <h1 class="BewertungName BewertungName1">Kirsten B.</h1>
+                </div>
+                <div class="SterneBewertung SterneBewertung1">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <div class="BewertungDescription BewertungDescription1">
+                <p>
+                  Wir kommen schon seit Jahren immer wieder sehr gerne. Sushi
+                  ist einfach unschlagbar 👍 Heute haben wir die Limetten
+                  Limonade probiert und sind absolut begeistert. [...]
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a
+          href="https://g.co/kgs/Ygr9VBC"
+          class="BewertungLink BewertungLink2 InactiveRight"
+          target="_blank"
+        >
+          <div class="Bewertung Bewertung2">
+            <div class="BewertungContent BewertungContent2">
+              <div class="BewertungHeader BewertungHeader2">
+                <div class="BewertungNameContainer BewertungNameContainer2">
+                  <h1 class="BewertungName BewertungName2">Mario Stoltz</h1>
+                </div>
+                <div class="SterneBewertung SterneBewertung2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <div class="BewertungDescription BewertungDescription2">
+                <p>
+                  Ausgezeichnetes Essen. Sehr leckeres Sushi, große Auswahl und
+                  alles frisch. Die gebratenen Rollen waren sehr lecker, aber
+                  auch alles Andere sehr gut. Einer von uns (mag kein Sushi)
+                  hatte knusprige Ente, auch sehr gut und genau die richtige
+                  Schärfe. Empfehlung!
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a
+          href="https://g.co/kgs/k4QCNeg"
+          class="BewertungLink BewertungLink3 InactiveRight"
+          target="_blank"
+        >
+          <div class="Bewertung Bewertung3">
+            <div class="BewertungContent BewertungContent3">
+              <div class="BewertungHeader BewertungHeader3">
+                <div class="BewertungNameContainer BewertungNameContainer3">
+                  <h1 class="BewertungName BewertungName3">Stella Malinski</h1>
+                </div>
+                <div class="SterneBewertung SterneBewertung3">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <div class="BewertungDescription BewertungDescription3">
+                <p>
+                  Das Essen ist wirklich sehr lecker. Es gibt auch vegetarisches
+                  Essen. Das Essen ist immer sehr frisch und die Köche und
+                  Kellner sind ebenfalls sehr nett. Mittlerweile sind wir hier
+                  Stammkunden, weil das Essen sehr lecker ist und man immer
+                  sofort weiß was man essen möchte [...]
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a
+          href="https://g.co/kgs/imxJj83"
+          class="BewertungLink BewertungLink4 InactiveRight"
+          target="_blank"
+        >
+          <div class="Bewertung Bewertung4">
+            <div class="BewertungContent BewertungContent4">
+              <div class="BewertungHeader BewertungHeader4">
+                <div class="BewertungNameContainer BewertungNameContainer4">
+                  <h1 class="BewertungName BewertungName4">Andreas Skala</h1>
+                </div>
+                <div class="SterneBewertung SterneBewertung4">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <div class="BewertungDescription BewertungDescription4">
+                <p>
+                  Essen gut, schönes neues Ambiente, gute neue Karte
+                  Preis-Leistung stimmt... Bedienung sehr freundlich
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a
+          href="https://g.co/kgs/wH6PTmS"
+          class="BewertungLink BewertungLink5 InactiveRight"
+          target="_blank"
+        >
+          <div class="Bewertung Bewertung5">
+            <div class="BewertungContent BewertungContent5">
+              <div class="BewertungHeader BewertungHeader5">
+                <div class="BewertungNameContainer BewertungNameContainer5">
+                  <h1 class="BewertungName BewertungName5">Donna Parte</h1>
+                </div>
+                <div class="SterneBewertung SterneBewertung5">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <div class="BewertungDescription BewertungDescription5">
+                <p>
+                  Gutes Essen, beste Pho-Suppe mit Tofu, super Geschmack, Preise
+                  viel zu günstig, sehr hundefreundlich
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="BewertungButtonContainer">
+        <a class="BewertungButton" href="#">Auf Google bewerten</a>
+      </div>
+    </section>
+
+    <section class="Empfehlung"></section>
+
+
+    <div class="custom-shape-divider-bottom-1709644284">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+      </svg>
+  </div>
+  <!-- Transparent Wave -->
+  <div class="custom-shape-divider-bottom-1709644736">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+    </svg>
+</div>
+    <footer>
+      <table>
+        <tr>
+          <td class="Footer-Wochentag-OT">Mo</td>
+          <td class="Footer-Time-OT">geschlossen</td>
+        </tr>
+        <tr>
+          <td class="Footer-Wochentag-OT">Di</td>
+          <td class="Footer-Time-OT">11:00 - 21:00</td>
+        </tr>
+        <tr>
+          <td class="Footer-Wochentag-OT">Mi</td>
+          <td class="Footer-Time-OT">11:00 - 21:00</td>
+        </tr>
+        <tr>
+          <td class="Footer-Wochentag-OT">Do</td>
+          <td class="Footer-Time-OT">11:00 - 21:00</td>
+        </tr>
+        <tr>
+          <td class="Footer-Wochentag-OT">Fr</td>
+          <td class="Footer-Time-OT">11:00 - 21:00</td>
+        </tr>
+        <tr>
+          <td class="Footer-Wochentag-OT">Sa</td>
+          <td class="Footer-Time-OT">12:00 - 20:00</td>
+        </tr>
+        <tr>
+          <td class="Footer-Wochentag-OT">So</td>
+          <td class="Footer-Time-OT">12:00 - 21:00</td>
+        </tr>
+      </table>
+
+      <ul class="Footer-Location">
+        <a
+          href="https://www.google.com/maps/place/Viet+Thai+-+Sushi+Bar/@52.6369954,13.2016202,319m/data=!3m1!1e3!4m6!3m5!1s0x47a8fff1f8f126e5:0x6a002704af584c57!8m2!3d52.6370697!4d13.2014837!16s%2Fg%2F11b6q2nb2g?hl=de&entry=ttu"
+          ><i class="fa-solid fa-location-dot"></i>Havelpassage 14, 16761
+          Hennigsdorf</a
+        >
+      </ul>
+      <ul class="Footer-Links">
+        <li><a href="#">Impressum</a></li>
+        <li><a href="#">Datenschutz</a></li>
+      </ul>
+    </footer>
+
+    <script src="../JS/DayMarker.js"></script>
+  </body>
+</html>
