@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*Variablen*/
+
+
+:root{
+    --main-font: 'Montserrat', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--main-font);
+    --text-primary: #fafafa;
+    --main-color: #252525;
+    --second-color:#131313;
+    --sidebar-icon-size: 40px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--main-color);
+}
+
+.SideBarUndBestellung{
+    display: flex;
+}
+
+.Sidebar{
+    margin-top: -15px;
+    width: 220px;
+    height: 1000px;
+    background-color: var(--second-color);
+}
+.Sidebar ul{
+    position: relative;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    top: 50px; 
+    right: 18px;
+}
+
+.Sidebar a{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin-top: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 15px;
+    padding-right: 12px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--text-primary);
+    transition: all 0.2s;
+}
+
+.Sidebar i{
+    display: block;
+    position: relative;
+    right: 15px;
+    font-size: 35px;
+}
+.fa-gears{
+    left: -3px;
+}
+.Sidebar dt{
+    display: block;
+    position: relative;
+    left: 5px;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+#activenav{
+    background-color: #fafafa1d;
+    box-shadow: rgba(3, 3, 3, 0.095) 2px 2px 1px;
+    transform: scale(1.1);
+}
+
+.Sidebar a:hover{
+    transform: scale(1.1);
+    background-color: #252525;
+}
+
+
+                                                                                    /*-----------------------------------*/
+                                                                                    /*BESTELLUNGEN SECTION*/
+                                                                                    /*----------------------------------*/
+
+.Bestellungen{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    width: 1500px;
+    margin: 80px;
+    border-radius: 20px;
+} 
+.Bestellungen h1{
+    color: var(--text-primary);
+    font-weight: 900;
+    font-size: 40px;
+    letter-spacing: 0.5px;
+}
+
+.ActiveOrderHeadline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(15, 15, 15);
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.ActiveOrderHeadlineContainer{
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    user-select: none;
+    top: 12em;
+    left: 20em;
+}
+
+.ActiveOrderHeadlineContainer i{
+padding-right: 10px;
+}
+.ActiveOrderHeadlineContainer dt{
+    font-weight: 700;
+    }
+
+
+.ActiveOrderCounter{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 10px;
+    margin-left: 8px;
+    font-weight: 500;
+    font-size: 30px;
+    color: var(--text-primary);
+    background-color: rgb(15, 15, 15);
+}
+
+/*ACTIVE ORDERS*/
+
+.ActiveOrders{
+    position: relative;
+    background-color: #fafafa;
+    width: 1400px;
+    bottom: 380px;
+    border-radius: 20px;
+}
