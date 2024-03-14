@@ -749,21 +749,22 @@ footer table td {
 
 
 
+
 #popup {
   display: none;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: #c2c2c2;
-  height: 20vw;
-  width: 10vw;
-  padding: 50px 170px 50px 170px;
+  background: #f6f6f6;
+  padding: 10% 25% 10% 25%;
   border: 1px solid #ccc;
+  border-radius: 20px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   z-index: 9999;
+  text-align: center;
 }
 
 #popup p{
-
+  width: 200px;
 }
